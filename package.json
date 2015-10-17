@@ -1,0 +1,28 @@
+{
+  "name": "test-nunjucks-loader",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack-dev-server --config test/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thepechinator/test-nunjucks-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepechinator/test-nunjucks-loader/issues"
+  },
+  "homepage": "https://github.com/thepechinator/test-nunjucks-loader",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "exports-loader": "^0.6.2",
+    "mocha": "^2.3.3",
+    "mocha-loader": "^0.7.1",
+    "nunjucks": "^2.1.0",
+    "nunjucks-loader": "^2.1.0",
+    "webpack": "^1.12.2"
+  }
+}
